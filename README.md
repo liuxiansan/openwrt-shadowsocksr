@@ -35,7 +35,7 @@ ShadowsocksR-libev for OpenWrt
    # 添加 feeds
    git clone https://github.com/liuxiansan/openwrt-feeds package/feeds
    # 获取 shadowsocks-libev Makefile
-   git clone https://github.com/liuxiansan/openwrt-shadowsocksr package/feeds/shadowsocksr-libev
+   git clone https://github.com/liuxiansan/openwrt-shadowsocksr package/shadowsocksr-libev
    # 选择要编译的包 Network -> shadowsocks-libev
    make menuconfig
    # 开始编译
